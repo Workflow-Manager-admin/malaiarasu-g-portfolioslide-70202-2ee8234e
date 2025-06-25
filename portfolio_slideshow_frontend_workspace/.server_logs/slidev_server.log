@@ -1,0 +1,47 @@
+
+> dev
+> slidev --open --remote --force --port 3000
+
+
+
+  ●■▲
+  Slidev  v51.5.0 
+
+  ! Unsupported Atomic CSS engine ":root {
+  --slidev-theme-primary: #2d3748;
+  --slidev-theme-secondary: #60a5fa;
+  --slidev-theme-accent: #f59e42;
+}
+", fallback to UnoCSS
+  theme       @slidev/theme-default
+  css engine  unocss
+  entry       /home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/slides.md
+
+  public slide show   > http://localhost:3000/
+  presenter mode      > http://localhost:3000/presenter/
+  slides overview     > http://localhost:3000/overview/
+  export slides       > http://localhost:3000/export/
+  remote control      > http://172.17.0.2:3000/entry/
+
+  shortcuts           > restart | open | edit | quit | qrcode
+Error: spawn xdg-open ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+5:18:31 AM [vite] Internal server error: ENOENT: no such file or directory, open '/slides.md__slidev_6.md'
+      at Object.openSync (node:fs:596:3)
+      at Object.readFileSync (node:fs:464:35)
+      at getDescriptor (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:114:18)
+      at LoadPluginContext.load (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2990:28)
+      at EnvironmentPluginContainer.load (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47653:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:41261:22)
+5:18:32 AM [vite] Internal server error: ENOENT: no such file or directory, open '/slides.md__slidev_6.md'
+      at Object.openSync (node:fs:596:3)
+      at Object.readFileSync (node:fs:464:35)
+      at getDescriptor (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:114:18)
+      at LoadPluginContext.load (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/@vitejs/plugin-vue/dist/index.mjs:2990:28)
+      at EnvironmentPluginContainer.load (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:47653:17)
+      at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+      at async loadAndTransform (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:41261:22)
+      at async viteTransformMiddleware (file:///home/kavia/workspace/code-generation/malaiarasu-g-portfolioslide-70202-2ee8234e/portfolio_slideshow_frontend_workspace/portfolio_slideshow_frontend/node_modules/vite/dist/node/chunks/dep-Pj_jxEzN.js:42807:24)
